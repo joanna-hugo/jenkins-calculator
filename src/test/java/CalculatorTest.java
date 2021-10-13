@@ -93,7 +93,7 @@ public class CalculatorTest {
     public void intToBinaryNumberTest(){
         Calculator myCalculator = new Calculator();
 
-        assertEquals("0000" , myCalculator.intToBinaryNumber(0));
+        assertEquals("0" , myCalculator.intToBinaryNumber(0));
         assertEquals("1010" , myCalculator.intToBinaryNumber(10));
         assertEquals("10000" , myCalculator.intToBinaryNumber(16));
         assertEquals("10100" , myCalculator.intToBinaryNumber(20));
