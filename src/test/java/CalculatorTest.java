@@ -13,7 +13,7 @@ public class CalculatorTest {
         assertEquals(6 , myCalculator.add(3,3));
         assertEquals(6 , myCalculator.add(0,6));
         assertEquals(6 , myCalculator.add(7,-1));
-        assertEquals( -6, myCalculator.add(-3,-3));
+        assertEquals( -7, myCalculator.add(-4,-3));
 
     }
 
